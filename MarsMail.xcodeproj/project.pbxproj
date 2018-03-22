@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C4617F8206341E800C56F10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4617F7206341E800C56F10 /* AppDelegate.swift */; };
+		3C4617FA206341E800C56F10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4617F9206341E800C56F10 /* ViewController.swift */; };
+		3C4617FD206341E800C56F10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C4617FB206341E800C56F10 /* Main.storyboard */; };
+		3C4617FF206341E800C56F10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C4617FE206341E800C56F10 /* Assets.xcassets */; };
+		3C461802206341E800C56F10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C461800206341E800C56F10 /* LaunchScreen.storyboard */; };
+		3C46180D206341E800C56F10 /* MarsMailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C46180C206341E800C56F10 /* MarsMailTests.swift */; };
+		3C461818206341E800C56F10 /* MarsMailUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C461817206341E800C56F10 /* MarsMailUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C461809206341E800C56F10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C4617EC206341E800C56F10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C4617F3206341E800C56F10;
+			remoteInfo = MarsMail;
+		};
+		3C461814206341E800C56F10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C4617EC206341E800C56F10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C4617F3206341E800C56F10;
+			remoteInfo = MarsMail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C4617F4206341E800C56F10 /* MarsMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarsMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C4617F7206341E800C56F10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C4617F9206341E800C56F10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C4617FC206341E800C56F10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C4617FE206341E800C56F10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C461801206341E800C56F10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C461803206341E800C56F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C461808206341E800C56F10 /* MarsMailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsMailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C46180C206341E800C56F10 /* MarsMailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsMailTests.swift; sourceTree = "<group>"; };
+		3C46180E206341E800C56F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C461813206341E800C56F10 /* MarsMailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsMailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C461817206341E800C56F10 /* MarsMailUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsMailUITests.swift; sourceTree = "<group>"; };
+		3C461819206341E800C56F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C4617F1206341E800C56F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C461805206341E800C56F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C461810206341E800C56F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C4617EB206341E800C56F10 = {
+			isa = PBXGroup;
+			children = (
+				3C4617F6206341E800C56F10 /* MarsMail */,
+				3C46180B206341E800C56F10 /* MarsMailTests */,
+				3C461816206341E800C56F10 /* MarsMailUITests */,
+				3C4617F5206341E800C56F10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C4617F5206341E800C56F10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C4617F4206341E800C56F10 /* MarsMail.app */,
+				3C461808206341E800C56F10 /* MarsMailTests.xctest */,
+				3C461813206341E800C56F10 /* MarsMailUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C4617F6206341E800C56F10 /* MarsMail */ = {
+			isa = PBXGroup;
+			children = (
+				3C4617F7206341E800C56F10 /* AppDelegate.swift */,
+				3C4617F9206341E800C56F10 /* ViewController.swift */,
+				3C4617FB206341E800C56F10 /* Main.storyboard */,
+				3C4617FE206341E800C56F10 /* Assets.xcassets */,
+				3C461800206341E800C56F10 /* LaunchScreen.storyboard */,
+				3C461803206341E800C56F10 /* Info.plist */,
+			);
+			path = MarsMail;
+			sourceTree = "<group>";
+		};
+		3C46180B206341E800C56F10 /* MarsMailTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C46180C206341E800C56F10 /* MarsMailTests.swift */,
+				3C46180E206341E800C56F10 /* Info.plist */,
+			);
+			path = MarsMailTests;
+			sourceTree = "<group>";
+		};
+		3C461816206341E800C56F10 /* MarsMailUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C461817206341E800C56F10 /* MarsMailUITests.swift */,
+				3C461819206341E800C56F10 /* Info.plist */,
+			);
+			path = MarsMailUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C4617F3206341E800C56F10 /* MarsMail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C46181C206341E800C56F10 /* Build configuration list for PBXNativeTarget "MarsMail" */;
+			buildPhases = (
+				3C4617F0206341E800C56F10 /* Sources */,
+				3C4617F1206341E800C56F10 /* Frameworks */,
+				3C4617F2206341E800C56F10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarsMail;
+			productName = MarsMail;
+			productReference = 3C4617F4206341E800C56F10 /* MarsMail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C461807206341E800C56F10 /* MarsMailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C46181F206341E800C56F10 /* Build configuration list for PBXNativeTarget "MarsMailTests" */;
+			buildPhases = (
+				3C461804206341E800C56F10 /* Sources */,
+				3C461805206341E800C56F10 /* Frameworks */,
+				3C461806206341E800C56F10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C46180A206341E800C56F10 /* PBXTargetDependency */,
+			);
+			name = MarsMailTests;
+			productName = MarsMailTests;
+			productReference = 3C461808206341E800C56F10 /* MarsMailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C461812206341E800C56F10 /* MarsMailUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C461822206341E800C56F10 /* Build configuration list for PBXNativeTarget "MarsMailUITests" */;
+			buildPhases = (
+				3C46180F206341E800C56F10 /* Sources */,
+				3C461810206341E800C56F10 /* Frameworks */,
+				3C461811206341E800C56F10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C461815206341E800C56F10 /* PBXTargetDependency */,
+			);
+			name = MarsMailUITests;
+			productName = MarsMailUITests;
+			productReference = 3C461813206341E800C56F10 /* MarsMailUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C4617EC206341E800C56F10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Sam King";
+				TargetAttributes = {
+					3C4617F3206341E800C56F10 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3C461807206341E800C56F10 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3C4617F3206341E800C56F10;
+					};
+					3C461812206341E800C56F10 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3C4617F3206341E800C56F10;
+					};
+				};
+			};
+			buildConfigurationList = 3C4617EF206341E800C56F10 /* Build configuration list for PBXProject "MarsMail" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C4617EB206341E800C56F10;
+			productRefGroup = 3C4617F5206341E800C56F10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C4617F3206341E800C56F10 /* MarsMail */,
+				3C461807206341E800C56F10 /* MarsMailTests */,
+				3C461812206341E800C56F10 /* MarsMailUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C4617F2206341E800C56F10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C461802206341E800C56F10 /* LaunchScreen.storyboard in Resources */,
+				3C4617FF206341E800C56F10 /* Assets.xcassets in Resources */,
+				3C4617FD206341E800C56F10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C461806206341E800C56F10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C461811206341E800C56F10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C4617F0206341E800C56F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C4617FA206341E800C56F10 /* ViewController.swift in Sources */,
+				3C4617F8206341E800C56F10 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C461804206341E800C56F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C46180D206341E800C56F10 /* MarsMailTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C46180F206341E800C56F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C461818206341E800C56F10 /* MarsMailUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C46180A206341E800C56F10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C4617F3206341E800C56F10 /* MarsMail */;
+			targetProxy = 3C461809206341E800C56F10 /* PBXContainerItemProxy */;
+		};
+		3C461815206341E800C56F10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C4617F3206341E800C56F10 /* MarsMail */;
+			targetProxy = 3C461814206341E800C56F10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C4617FB206341E800C56F10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C4617FC206341E800C56F10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C461800206341E800C56F10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C461801206341E800C56F10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C46181A206341E800C56F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C46181B206341E800C56F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C46181D206341E800C56F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarsMail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marsmail.MarsMail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C46181E206341E800C56F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarsMail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marsmail.MarsMail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C461820206341E800C56F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarsMailTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marsmail.MarsMailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarsMail.app/MarsMail";
+			};
+			name = Debug;
+		};
+		3C461821206341E800C56F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarsMailTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marsmail.MarsMailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarsMail.app/MarsMail";
+			};
+			name = Release;
+		};
+		3C461823206341E800C56F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarsMailUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marsmail.MarsMailUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarsMail;
+			};
+			name = Debug;
+		};
+		3C461824206341E800C56F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarsMailUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marsmail.MarsMailUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarsMail;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C4617EF206341E800C56F10 /* Build configuration list for PBXProject "MarsMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C46181A206341E800C56F10 /* Debug */,
+				3C46181B206341E800C56F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C46181C206341E800C56F10 /* Build configuration list for PBXNativeTarget "MarsMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C46181D206341E800C56F10 /* Debug */,
+				3C46181E206341E800C56F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C46181F206341E800C56F10 /* Build configuration list for PBXNativeTarget "MarsMailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C461820206341E800C56F10 /* Debug */,
+				3C461821206341E800C56F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C461822206341E800C56F10 /* Build configuration list for PBXNativeTarget "MarsMailUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C461823206341E800C56F10 /* Debug */,
+				3C461824206341E800C56F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C4617EC206341E800C56F10 /* Project object */;
+}
