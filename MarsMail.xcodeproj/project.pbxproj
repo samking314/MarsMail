@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C3515EC209F739E00BEA071 /* MarsMailLaunchImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C3515EB209F739E00BEA071 /* MarsMailLaunchImage.jpg */; };
 		3C4617F8206341E800C56F10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4617F7206341E800C56F10 /* AppDelegate.swift */; };
 		3C4617FA206341E800C56F10 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4617F9206341E800C56F10 /* MainViewController.swift */; };
 		3C4617FD206341E800C56F10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C4617FB206341E800C56F10 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C3515EB209F739E00BEA071 /* MarsMailLaunchImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = MarsMailLaunchImage.jpg; path = ../../../../Downloads/MarsMailLaunchImage.jpg; sourceTree = "<group>"; };
 		3C4617F4206341E800C56F10 /* MarsMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarsMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C4617F7206341E800C56F10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C4617F9206341E800C56F10 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,14 @@
 			path = AppDelegate;
 			sourceTree = "<group>";
 		};
+		3C3515EA209F738900BEA071 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3C3515EB209F739E00BEA071 /* MarsMailLaunchImage.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		3C4617EB206341E800C56F10 = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +133,7 @@
 		3C4617F6206341E800C56F10 /* MarsMail */ = {
 			isa = PBXGroup;
 			children = (
+				3C3515EA209F738900BEA071 /* Images */,
 				3C3515E9209F5C2D00BEA071 /* AppDelegate */,
 				3C3515E8209F5C1500BEA071 /* ViewControllers */,
 				3C4618252063497100C56F10 /* Views */,
@@ -269,6 +280,7 @@
 			files = (
 				3C461802206341E800C56F10 /* LaunchScreen.storyboard in Resources */,
 				3C4617FF206341E800C56F10 /* Assets.xcassets in Resources */,
+				3C3515EC209F739E00BEA071 /* MarsMailLaunchImage.jpg in Resources */,
 				3C4617FD206341E800C56F10 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
