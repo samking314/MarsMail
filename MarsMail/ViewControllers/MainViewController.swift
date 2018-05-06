@@ -17,11 +17,14 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     //--- setup its reuse identifier
     let cellReuseIdentifier = "messageCell"
     
+    //--- setup header buttons
+    @IBOutlet weak var btnEditProfile: UIButton!
+    @IBOutlet weak var btnComposeMessage: UIButton!
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
         
-        self.tableView.register(MessageTableViewCell.self, forCellReuseIdentifier: cellReuseIdentifier)
         tableView.delegate = self
     }
 
@@ -30,6 +33,8 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    //----- UITableView Methods
     
     func numberOfSections(in tableView: UITableView) -> Int
     {
@@ -48,21 +53,28 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
     {
-        //code here
+        //TODO Setup call to another storyboard that has list of messages
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
         let cell:MessageTableViewCell = self.tableView.dequeueReusableCell( withIdentifier: cellReuseIdentifier ) as! MessageTableViewCell
         
-        cell.myView?.backgroundColor = UIColor.black
-        cell.lblThreadName?.text = "The Mars Group"
-        cell.lblThreadRecentMessage?.text = "guys.. where's the water supply??"
-        cell.lblThreadRecentTime?.text = "5m ago"
         
         return cell
     }
     
+    //----- UIButton Methods
+    
+    @IBAction func btnComposeMessageClicked()
+    {
+        //TODO Setup screen to allow user to create a group message thread
+    }
+    
+    @IBAction func btnEditditProfileClicked()
+    {
+        //TODO Setup screen to allow user to edit their profile
+    }
 
 }
 

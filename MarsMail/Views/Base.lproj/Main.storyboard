@@ -38,6 +38,9 @@
                                     <constraint firstAttribute="width" constant="50" id="08c-ks-H3d"/>
                                     <constraint firstAttribute="height" constant="30" id="t7h-qt-EAU"/>
                                 </constraints>
+                                <connections>
+                                    <action selector="btnEditditProfileClicked" destination="cjR-Rb-Z9z" eventType="touchUpInside" id="ZwH-Vn-NPk"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MarsMail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J9y-xj-2Ss">
                                 <rect key="frame" x="139" y="20" width="97" height="30"/>
@@ -53,6 +56,9 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="Ihc-pj-tTw"/>
                                 </constraints>
+                                <connections>
+                                    <action selector="btnComposeMessageClicked" destination="cjR-Rb-Z9z" eventType="touchUpInside" id="aPB-Kf-kWw"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q9Q-zs-ygM">
                                 <rect key="frame" x="10" y="20" width="28.5" height="30"/>
@@ -92,32 +98,29 @@
                                                         <constraint firstAttribute="width" constant="50" id="W99-LR-Qhv"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e4b-IG-ouW">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mars Mission 1 Team" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e4b-IG-ouW">
                                                     <rect key="frame" x="80" y="14" width="220" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="Efh-TE-gNn"/>
-                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="20" id="Kzx-uk-cQK"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0J0-v3-E87">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hey guys... where's the water??" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0J0-v3-E87">
                                                     <rect key="frame" x="80" y="35" width="260" height="17"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="20" id="WAs-Cq-ROk"/>
                                                         <constraint firstAttribute="height" constant="17" id="jng-lo-OWq"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="14"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zVr-tw-2hY">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5m" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zVr-tw-2hY">
                                                     <rect key="frame" x="310" y="14" width="50" height="17"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="17" id="Njk-Ju-slR"/>
-                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="20" id="oOr-j3-6nZ"/>
-                                                        <constraint firstAttribute="width" constant="50" id="r2Z-JF-SLk"/>
+                                                        <constraint firstAttribute="width" constant="50" id="ePX-VC-A09"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="14"/>
                                                     <nil key="textColor"/>
@@ -186,6 +189,8 @@
                         <viewLayoutGuide key="safeArea" id="AaS-0X-eup"/>
                     </view>
                     <connections>
+                        <outlet property="btnComposeMessage" destination="w8N-3c-1Gd" id="620-dw-Rji"/>
+                        <outlet property="btnEditProfile" destination="zqL-PX-kOP" id="T1m-7B-Zcg"/>
                         <outlet property="tableView" destination="BQw-Yr-rwE" id="Ise-Bw-NOq"/>
                         <outlet property="view" destination="vZL-Gb-GGj" id="c2j-ey-BH5"/>
                     </connections>
