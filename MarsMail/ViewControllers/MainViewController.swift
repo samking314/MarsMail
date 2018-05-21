@@ -60,6 +60,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     {
         let cell:MessageTableViewCell = self.tableView.dequeueReusableCell( withIdentifier: cellReuseIdentifier ) as! MessageTableViewCell
         
+        //TODO Take details from server about message thread and add to cell
         
         return cell
     }
@@ -73,7 +74,9 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     @IBAction func btnEditditProfileClicked()
     {
-        //TODO Setup screen to allow user to edit their profile
+        let storyboard = UIStoryboard(name: "EditProfile", bundle: nil)
+        let editProfVC = storyboard.instantiateViewController(withIdentifier: "EditProfileViewController") as! EditProfileViewController
+        self.present(editProfVC, animated: true, completion: nil)
     }
 
 }
