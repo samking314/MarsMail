@@ -8,7 +8,6 @@
 
 import UIKit
 
-
 class EditProfileViewController: UIViewController
 {
     //--- get buttons
@@ -37,8 +36,9 @@ class EditProfileViewController: UIViewController
     override func didReceiveMemoryWarning()
     {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
+    
+    //----- Setup the ViewController with initial data
     
     func setupView()
     {
@@ -52,6 +52,8 @@ class EditProfileViewController: UIViewController
         
         //TODO setup % likely you are you
     }
+    
+    //----- UIButton methods
     
     @IBAction func btnEditProfPicClicked(_ sender: Any)
     {

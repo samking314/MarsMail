@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C146E1720B3199F005F6A38 /* ComposeMessage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C146E1620B3199F005F6A38 /* ComposeMessage.storyboard */; };
+		3C146E1920B319C0005F6A38 /* ComposeMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C146E1820B319C0005F6A38 /* ComposeMessage.swift */; };
+		3C146E1B20B35102005F6A38 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C146E1A20B35102005F6A38 /* UserTableViewCell.swift */; };
 		3C3515EC209F739E00BEA071 /* MarsMailLaunchImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C3515EB209F739E00BEA071 /* MarsMailLaunchImage.jpg */; };
 		3C4617F8206341E800C56F10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4617F7206341E800C56F10 /* AppDelegate.swift */; };
 		3C4617FA206341E800C56F10 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4617F9206341E800C56F10 /* MainViewController.swift */; };
@@ -38,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C146E1620B3199F005F6A38 /* ComposeMessage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ComposeMessage.storyboard; sourceTree = "<group>"; };
+		3C146E1820B319C0005F6A38 /* ComposeMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeMessage.swift; sourceTree = "<group>"; };
+		3C146E1A20B35102005F6A38 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
 		3C3515EB209F739E00BEA071 /* MarsMailLaunchImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = MarsMailLaunchImage.jpg; path = ../../../../Downloads/MarsMailLaunchImage.jpg; sourceTree = "<group>"; };
 		3C4617F4206341E800C56F10 /* MarsMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarsMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C4617F7206341E800C56F10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				3C461828206349A700C56F10 /* MessageTableViewCell.swift */,
+				3C146E1A20B35102005F6A38 /* UserTableViewCell.swift */,
 			);
 			path = CustomTableViewCells;
 			sourceTree = "<group>";
@@ -95,6 +102,7 @@
 			children = (
 				3C4617F9206341E800C56F10 /* MainViewController.swift */,
 				3CD0674520B231C400235679 /* EditProfileViewController.swift */,
+				3C146E1820B319C0005F6A38 /* ComposeMessage.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -173,6 +181,7 @@
 			children = (
 				3C4617FB206341E800C56F10 /* Main.storyboard */,
 				3CD0674320B21C8200235679 /* EditProfile.storyboard */,
+				3C146E1620B3199F005F6A38 /* ComposeMessage.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -287,6 +296,7 @@
 				3C461802206341E800C56F10 /* LaunchScreen.storyboard in Resources */,
 				3CD0674420B21C8200235679 /* EditProfile.storyboard in Resources */,
 				3C4617FF206341E800C56F10 /* Assets.xcassets in Resources */,
+				3C146E1720B3199F005F6A38 /* ComposeMessage.storyboard in Resources */,
 				3C3515EC209F739E00BEA071 /* MarsMailLaunchImage.jpg in Resources */,
 				3C4617FD206341E800C56F10 /* Main.storyboard in Resources */,
 			);
@@ -313,9 +323,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C146E1920B319C0005F6A38 /* ComposeMessage.swift in Sources */,
 				3CD0674620B231C400235679 /* EditProfileViewController.swift in Sources */,
 				3C4617FA206341E800C56F10 /* MainViewController.swift in Sources */,
 				3C4617F8206341E800C56F10 /* AppDelegate.swift in Sources */,
+				3C146E1B20B35102005F6A38 /* UserTableViewCell.swift in Sources */,
 				3C461829206349A700C56F10 /* MessageTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

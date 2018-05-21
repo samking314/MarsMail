@@ -14,7 +14,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     //--- get tableview
     @IBOutlet weak var tableView: UITableView!
 
-    //--- setup its reuse identifier
+    //--- setup UITableViewCell reuse identifier
     let cellReuseIdentifier = "messageCell"
     
     //--- setup header buttons
@@ -69,7 +69,9 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     @IBAction func btnComposeMessageClicked()
     {
-        //TODO Setup screen to allow user to create a group message thread
+        let storyboard = UIStoryboard(name: "ComposeMessage", bundle: nil)
+        let editProfVC = storyboard.instantiateViewController(withIdentifier: "ComposeMessageViewController") as! ComposeMessageViewController
+        self.present(editProfVC, animated: true, completion: nil)
     }
     
     @IBAction func btnEditditProfileClicked()

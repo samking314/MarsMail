@@ -48,6 +48,7 @@
                                 <rect key="frame" x="290" y="20" width="80" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="Ihc-pj-tTw"/>
+                                    <constraint firstAttribute="height" constant="30" id="ccl-pw-yyj"/>
                                 </constraints>
                                 <connections>
                                     <action selector="btnComposeMessageClicked" destination="cjR-Rb-Z9z" eventType="touchUpInside" id="aPB-Kf-kWw"/>
