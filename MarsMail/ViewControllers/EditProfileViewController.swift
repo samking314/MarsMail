@@ -27,22 +27,22 @@ class EditProfileViewController: UIViewController
     @IBOutlet weak var txtName: UITextField!
     
     //--- get UILabels
-    @IBOutlet weak var lblTextCount: UITextField!
-    @IBOutlet weak var lblFilesCount: UITextField!
-    @IBOutlet weak var lblVideosCount: UITextField!
-    @IBOutlet weak var lblMarsEmojisCount: UITextField!
-    @IBOutlet weak var lblDBSize: UITextField!
-    @IBOutlet weak var lblPercentLikely: UITextField!
+    @IBOutlet weak var lblTextCount: UILabel!
+    @IBOutlet weak var lblFilesCount: UILabel!
+    @IBOutlet weak var lblVideosCount: UILabel!
+    @IBOutlet weak var lblMarsEmojisCount: UILabel!
+    @IBOutlet weak var lblDBSize: UILabel!
+    @IBOutlet weak var lblPercentLikely: UILabel!
     
-    //---get test data
-    let imgProfPicPlaceholder = UIImage(named: "marsPlaceholder.jpg")
-    let username = "king_sammmm"
-    let textcount = "20"
-    let filecount = "100"
-    let videocount = "2"
-    let MEcount = "80"
-    let dbSize = "1 / 10^20%"
-    let percentLikely = "60%"
+    //--- get test data
+    var imgProfPicPlaceholder = UIImage(named: "marsPlaceholder.jpg")
+    var username = "king_sammmm"
+    var textcount = "20"
+    var filecount = "100"
+    var videocount = "2"
+    var MEcount = "80"
+    var dbSize = "1 / 10^20%"
+    var percentLikely = "60%"
     
 
     override func viewDidLoad()

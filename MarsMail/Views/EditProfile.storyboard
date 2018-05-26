@@ -60,7 +60,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="25" id="1ab-FJ-IZn"/>
                                 </constraints>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
@@ -360,6 +360,12 @@
                         <outlet property="btnDone" destination="GOf-ic-NxZ" id="B5h-7c-qtk"/>
                         <outlet property="btnEditProfPic" destination="zLo-2c-QCe" id="R6R-cU-inY"/>
                         <outlet property="imgProfPic" destination="unn-Fm-yNL" id="idM-S3-dKu"/>
+                        <outlet property="lblDBSize" destination="lJ2-GU-qi9" id="KvC-Iw-LT4"/>
+                        <outlet property="lblFilesCount" destination="IXf-dG-1Lj" id="0VC-ZI-crY"/>
+                        <outlet property="lblMarsEmojisCount" destination="8Ps-wp-CqV" id="u0l-S1-8rr"/>
+                        <outlet property="lblPercentLikely" destination="fkC-dQ-wTq" id="Gb4-fh-GEB"/>
+                        <outlet property="lblTextCount" destination="X2q-Ba-ZSh" id="rwD-PH-o7B"/>
+                        <outlet property="lblVideosCount" destination="imb-mH-RX2" id="e4H-pl-9jv"/>
                         <outlet property="txtName" destination="kQm-Wy-ayS" id="ZHt-Yf-HtT"/>
                         <outlet property="view" destination="qLz-4r-dMU" id="ObP-iK-Rwa"/>
                     </connections>
