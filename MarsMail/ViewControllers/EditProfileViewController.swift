@@ -23,8 +23,27 @@ class EditProfileViewController: UIViewController
     //--- get profile image
     @IBOutlet weak var imgProfPic: UIImageView!
     
-    //--- get text field for name
+    //--- get UITextFields
     @IBOutlet weak var txtName: UITextField!
+    
+    //--- get UILabels
+    @IBOutlet weak var lblTextCount: UITextField!
+    @IBOutlet weak var lblFilesCount: UITextField!
+    @IBOutlet weak var lblVideosCount: UITextField!
+    @IBOutlet weak var lblMarsEmojisCount: UITextField!
+    @IBOutlet weak var lblDBSize: UITextField!
+    @IBOutlet weak var lblPercentLikely: UITextField!
+    
+    //---get test data
+    let imgProfPicPlaceholder = UIImage(named: "marsPlaceholder.jpg")
+    let username = "king_sammmm"
+    let textcount = "20"
+    let filecount = "100"
+    let videocount = "2"
+    let MEcount = "80"
+    let dbSize = "1 / 10^20%"
+    let percentLikely = "60%"
+    
 
     override func viewDidLoad()
     {
@@ -51,6 +70,15 @@ class EditProfileViewController: UIViewController
         //TODO setup DB size info
         
         //TODO setup % likely you are you
+        
+        //for now just use test data
+        imgProfPic.image = imgProfPicPlaceholder
+        txtName.text = username
+        lblTextCount.text = textcount
+        lblFilesCount.text = filecount
+        lblVideosCount.text = videocount
+        lblDBSize.text = dbSize
+        lblPercentLikely.text = percentLikely
     }
     
     //----- UIButton methods

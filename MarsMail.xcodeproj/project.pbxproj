@@ -21,6 +21,10 @@
 		3C461829206349A700C56F10 /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C461828206349A700C56F10 /* MessageTableViewCell.swift */; };
 		3CD0674420B21C8200235679 /* EditProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CD0674320B21C8200235679 /* EditProfile.storyboard */; };
 		3CD0674620B231C400235679 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD0674520B231C400235679 /* EditProfileViewController.swift */; };
+		3CF4638D20B8E0800047C843 /* happybday.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF4638C20B8E07F0047C843 /* happybday.png */; };
+		3CF4638F20B8E0B00047C843 /* marsmission.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CF4638E20B8E0B00047C843 /* marsmission.jpg */; };
+		3CF4639120B8E0D40047C843 /* marsmission1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CF4639020B8E0D40047C843 /* marsmission1.jpg */; };
+		3CF4639320B8E9B80047C843 /* marsPlaceholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CF4639220B8E9B70047C843 /* marsPlaceholder.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +65,10 @@
 		3C461828206349A700C56F10 /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
 		3CD0674320B21C8200235679 /* EditProfile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EditProfile.storyboard; sourceTree = "<group>"; };
 		3CD0674520B231C400235679 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		3CF4638C20B8E07F0047C843 /* happybday.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = happybday.png; path = ../../../../../Downloads/happybday.png; sourceTree = "<group>"; };
+		3CF4638E20B8E0B00047C843 /* marsmission.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = marsmission.jpg; path = ../../../../../Downloads/marsmission.jpg; sourceTree = "<group>"; };
+		3CF4639020B8E0D40047C843 /* marsmission1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = marsmission1.jpg; path = ../../../../../Downloads/marsmission1.jpg; sourceTree = "<group>"; };
+		3CF4639220B8E9B70047C843 /* marsPlaceholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = marsPlaceholder.jpg; path = ../../../../Downloads/marsPlaceholder.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +126,8 @@
 		3C3515EA209F738900BEA071 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				3CF4639220B8E9B70047C843 /* marsPlaceholder.jpg */,
+				3CF4638B20B8E0650047C843 /* testData */,
 				3C3515EB209F739E00BEA071 /* MarsMailLaunchImage.jpg */,
 			);
 			path = Images;
@@ -184,6 +194,16 @@
 				3C146E1620B3199F005F6A38 /* ComposeMessage.storyboard */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		3CF4638B20B8E0650047C843 /* testData */ = {
+			isa = PBXGroup;
+			children = (
+				3CF4639020B8E0D40047C843 /* marsmission1.jpg */,
+				3CF4638E20B8E0B00047C843 /* marsmission.jpg */,
+				3CF4638C20B8E07F0047C843 /* happybday.png */,
+			);
+			path = testData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,9 +313,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CF4638D20B8E0800047C843 /* happybday.png in Resources */,
 				3C461802206341E800C56F10 /* LaunchScreen.storyboard in Resources */,
+				3CF4639320B8E9B80047C843 /* marsPlaceholder.jpg in Resources */,
 				3CD0674420B21C8200235679 /* EditProfile.storyboard in Resources */,
+				3CF4638F20B8E0B00047C843 /* marsmission.jpg in Resources */,
 				3C4617FF206341E800C56F10 /* Assets.xcassets in Resources */,
+				3CF4639120B8E0D40047C843 /* marsmission1.jpg in Resources */,
 				3C146E1720B3199F005F6A38 /* ComposeMessage.storyboard in Resources */,
 				3C3515EC209F739E00BEA071 /* MarsMailLaunchImage.jpg in Resources */,
 				3C4617FD206341E800C56F10 /* Main.storyboard in Resources */,
