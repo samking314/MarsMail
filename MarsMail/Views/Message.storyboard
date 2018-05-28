@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AppleSDGothicNeo.ttc">
+            <string>AppleSDGothicNeo-Bold</string>
+            <string>AppleSDGothicNeo-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Message View Controller-->
+        <scene sceneID="MZd-1B-jnP">
+            <objects>
+                <viewController id="fl8-qR-6i6" customClass="MessageViewController" customModule="MarsMail" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rTk-6b-UH2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MarsMail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LbB-Xm-nV4">
+                                <rect key="frame" x="139" y="20" width="97" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="5B5-jA-srZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="24"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FeX-6e-v8i">
+                                <rect key="frame" x="320" y="20" width="50" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="CMd-Nm-e0b"/>
+                                </constraints>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Done" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mdE-i9-j2i">
+                                <rect key="frame" x="327" y="20" width="38" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="58q-eC-LN2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="bJK-Nr-xya">
+                                <rect key="frame" x="0.0" y="70" width="375" height="547"/>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="gWZ-aJ-scM" customClass="MessageTableViewCell" customModule="MarsMail" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gWZ-aJ-scM" id="IlK-Cn-FTJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="fl8-qR-6i6" id="7iu-5A-45D"/>
+                                    <outlet property="delegate" destination="fl8-qR-6i6" id="tbb-lM-A9i"/>
+                                </connections>
+                            </tableView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Lorem ipsum dolor sit er elit lamet, " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VGx-9T-C0t">
+                                <rect key="frame" x="10" y="622" width="305" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <connections>
+                                    <outlet property="delegate" destination="fl8-qR-6i6" id="mL2-Kb-XWa"/>
+                                </connections>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qJw-Du-iux">
+                                <rect key="frame" x="320" y="622" width="50" height="40"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="17"/>
+                                <state key="normal" title="Send">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ISM-Ns-vB5" firstAttribute="bottom" secondItem="VGx-9T-C0t" secondAttribute="bottom" constant="5" id="3Gp-rT-PVq"/>
+                            <constraint firstItem="qJw-Du-iux" firstAttribute="top" secondItem="bJK-Nr-xya" secondAttribute="bottom" constant="5" id="3WD-dr-4sl"/>
+                            <constraint firstItem="mdE-i9-j2i" firstAttribute="top" secondItem="ISM-Ns-vB5" secondAttribute="top" id="6hf-S4-1BI"/>
+                            <constraint firstItem="ISM-Ns-vB5" firstAttribute="bottom" secondItem="qJw-Du-iux" secondAttribute="bottom" constant="5" id="6y6-G6-SKO"/>
+                            <constraint firstItem="bJK-Nr-xya" firstAttribute="leading" secondItem="ISM-Ns-vB5" secondAttribute="leading" id="9fP-RS-XHL"/>
+                            <constraint firstItem="LbB-Xm-nV4" firstAttribute="centerX" secondItem="rTk-6b-UH2" secondAttribute="centerX" id="ElQ-cH-cGM"/>
+                            <constraint firstItem="ISM-Ns-vB5" firstAttribute="trailing" secondItem="VGx-9T-C0t" secondAttribute="trailing" constant="60" id="H3T-3Q-nBe"/>
+                            <constraint firstItem="VGx-9T-C0t" firstAttribute="leading" secondItem="ISM-Ns-vB5" secondAttribute="leading" constant="10" id="JFh-NJ-MHC"/>
+                            <constraint firstItem="ISM-Ns-vB5" firstAttribute="trailing" secondItem="mdE-i9-j2i" secondAttribute="trailing" constant="10" id="NAf-gB-Ree"/>
+                            <constraint firstItem="ISM-Ns-vB5" firstAttribute="trailing" secondItem="FeX-6e-v8i" secondAttribute="trailing" constant="5" id="OAs-uH-9br"/>
+                            <constraint firstItem="FeX-6e-v8i" firstAttribute="top" secondItem="ISM-Ns-vB5" secondAttribute="top" id="SKi-97-OjA"/>
+                            <constraint firstItem="ISM-Ns-vB5" firstAttribute="bottom" secondItem="bJK-Nr-xya" secondAttribute="bottom" constant="50" id="TdU-JS-UU1"/>
+                            <constraint firstItem="bJK-Nr-xya" firstAttribute="top" secondItem="LbB-Xm-nV4" secondAttribute="bottom" constant="20" id="YKw-bD-f06"/>
+                            <constraint firstItem="ISM-Ns-vB5" firstAttribute="trailing" secondItem="qJw-Du-iux" secondAttribute="trailing" constant="5" id="osX-SX-J10"/>
+                            <constraint firstItem="VGx-9T-C0t" firstAttribute="top" secondItem="bJK-Nr-xya" secondAttribute="bottom" constant="5" id="pEJ-TU-9y6"/>
+                            <constraint firstItem="ISM-Ns-vB5" firstAttribute="trailing" secondItem="bJK-Nr-xya" secondAttribute="trailing" id="qqj-xm-mTe"/>
+                            <constraint firstItem="LbB-Xm-nV4" firstAttribute="top" secondItem="ISM-Ns-vB5" secondAttribute="top" id="qre-2j-xtJ"/>
+                            <constraint firstItem="qJw-Du-iux" firstAttribute="leading" secondItem="VGx-9T-C0t" secondAttribute="trailing" constant="5" id="qw4-4N-hji"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ISM-Ns-vB5"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnDone" destination="FeX-6e-v8i" id="ZiS-Ls-olD"/>
+                        <outlet property="btnSend" destination="qJw-Du-iux" id="5Yx-kh-7SC"/>
+                        <outlet property="tableView" destination="bJK-Nr-xya" id="Kqe-uw-TJN"/>
+                        <outlet property="txtViewMessage" destination="VGx-9T-C0t" id="QvN-4X-GYi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X1J-L1-AzY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="200.80000000000001" y="205.54722638680661"/>
+        </scene>
+    </scenes>
+</document>

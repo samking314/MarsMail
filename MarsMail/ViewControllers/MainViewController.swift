@@ -15,7 +15,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     @IBOutlet weak var tableView: UITableView!
 
     //--- get UITableViewCell reuse identifier
-    let cellReuseIdentifier = "messageCell"
+    let cellReuseIdentifier = "messageListCell"
     
     //--- get header buttons
     @IBOutlet weak var btnEditProfile: UIButton!
@@ -66,7 +66,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
-        let cell:MessageTableViewCell = self.tableView.dequeueReusableCell(withIdentifier: cellReuseIdentifier) as! MessageTableViewCell
+        let cell:MessageListTableViewCell = self.tableView.dequeueReusableCell(withIdentifier: cellReuseIdentifier) as! MessageListTableViewCell
         
         //- setup cell characteristics
         cell.backgroundColor = UIColor.clear

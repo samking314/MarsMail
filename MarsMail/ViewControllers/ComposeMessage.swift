@@ -113,7 +113,7 @@ class ComposeMessageViewController: UIViewController, UITableViewDelegate, UITab
     
     @IBAction func btnDoneClicked(_ sender: Any)
     {
-        //TODO implement btndone clicked
+        self.dismiss(animated: true, completion: nil)
     }
     
     @IBAction func btnFiltersClicked(_ sedner: Any)

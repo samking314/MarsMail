@@ -29,6 +29,9 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="zY5-rL-jvj"/>
                                 </constraints>
+                                <connections>
+                                    <action selector="btnDoneClicked:" destination="lDq-NL-5QU" eventType="touchUpInside" id="Nfs-F4-23H"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Done" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TWM-9c-3Wf">
                                 <rect key="frame" x="272" y="20" width="38" height="30"/>

@@ -90,7 +90,7 @@ class EditProfileViewController: UIViewController
     
     @IBAction func btnDoneClicked(_ sender: Any)
     {
-        //TODO setup dismiss view
+        self.dismiss(animated: true, completion: nil)
     }
     
     @IBAction func btnRaiseTrustClicked(_ sender: Any)

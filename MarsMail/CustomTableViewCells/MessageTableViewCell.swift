@@ -2,7 +2,7 @@
 //  MessageTableViewCell.swift
 //  MarsMail
 //
-//  Created by Sam King on 3/21/18.
+//  Created by Sam King on 5/27/18.
 //  Copyright © 2018 MarsMail. All rights reserved.
 //
 
@@ -10,13 +10,14 @@ import UIKit
 
 class MessageTableViewCell: UITableViewCell
 {
-    //---- overall view
-    @IBOutlet weak var myView: UIView!
-
-    //---- thread data to show
-    @IBOutlet weak var imageThread: UIImageView!
-    @IBOutlet weak var lblThreadName: UILabel!
-    @IBOutlet weak var lblThreadRecentMessage: UILabel!
-    @IBOutlet weak var lblThreadRecentTime: UILabel!
+    //---- message data to show
+    @IBOutlet weak var imageProfPic: UIImageView!
+    @IBOutlet weak var lblUsername: UILabel!
+    @IBOutlet weak var lblUserInfo: UILabel!
+    @IBOutlet weak var lblMessage: UILabel!
+    @IBOutlet weak var lblTimeStamp: UILabel!
+    
+    //TODO setup files,video,Mars Emoji content
+    
 }
 
