@@ -68,4 +68,11 @@ class MessageViewController: UIViewController, UITableViewDelegate, UITableViewD
         return cell
     }
     
+    //----- UIButton Methods
+    
+    @IBAction func btnDoneClicked(_ sender: Any)
+    {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
 }
